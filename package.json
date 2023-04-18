@@ -1,0 +1,33 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "boom!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "colour": "^0.7.1",
+    "config.json": "^0.0.4",
+    "connect-mongo": "^5.0.0",
+    "discord.js": "^14.7.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express.js": "^1.0.0",
+    "forever-monitor": "^3.0.3",
+    "mongoose": "^7.0.3",
+    "node-fetch": "^3.2.6",
+    "passport": "^0.6.0",
+    "passport-discord": "^0.1.4",
+    "passport-oauth2-refresh": "^2.1.0",
+    "redis": "^4.6.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
+}
