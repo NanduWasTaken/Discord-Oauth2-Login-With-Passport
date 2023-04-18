@@ -7,7 +7,7 @@ This is a Discord oauth2 login template. Using Passport-Discord to Login. Mongoo
 ```JS
 {
 
-	"clientId": "[Your_Client_ID]",        
+  "clientId": "[Your_Client_ID]",        
   
   "callbackUrl": "https://[yourwebsite]/auth/discord/callback",
 
@@ -17,10 +17,14 @@ This is a Discord oauth2 login template. Using Passport-Discord to Login. Mongoo
 
 }
 ```
- Replace "[Your_Client_ID]" with you discord application client ID 
- Replace "[yourwebsite]" with your web address ( in vscode localhost:3000 )
- Replace "[Your_MongoDB_Database_URI]" with your MongoDB Database Uri.
+ *Step 1* - Replace "[Your_Client_ID]" with you discord application client ID 
  
- Then you are all set to go type node index.js in your console!
+ *Step 2* - Replace "[yourwebsite]" with your web address ( in vscode localhost:3000 )
+ 
+ *Step 3* - Replace "[Your_MongoDB_Database_URI]" with your MongoDB Database Uri.
+ 
+ *Step 4* - Then you are all set to go type node index.js in your console!
+ 
+ *Step 5* - Go to the your / directory it will redirect you to the discord authorisation page. Authorise the application and see the magic!
  
  if you encounter any error feel free to create a issue here!
