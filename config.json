@@ -1,6 +1,6 @@
 {
 	"clientId": "[Your_Client_ID]",
-  "callbackUrl": "https://[yourwebsite]/auth/discord/callback",
-  "port": "3000",
-  "databaseUri": "[Your_MongoDB_Database_URI]"
+        "callbackUrl": "https://[yourwebsite]/auth/discord/callback",
+        "port": "3000",
+        "databaseUri": "[Your_MongoDB_Database_URI]"
 }
