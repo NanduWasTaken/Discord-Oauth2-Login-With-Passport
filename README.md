@@ -2,8 +2,10 @@
 Discord Oauth2 Login With Passport.js and Mongoose ( MongoDB ) 
 
 # Intro
-This is a Discord oauth2 login template. Using Passport-Discord to Login. Mongoose - MongoDb database to store user session and data like email, avatar, usernetc.ame 
+This is a Discord oauth2 login template. Using Passport-Discord to Login. Mongoose - MongoDb database to store user session and data like email, avatar, username etc.
 
+# Steps
+In config.json
 ```JS
 {
 
