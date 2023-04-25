@@ -25,8 +25,12 @@ In config.json
  
  *Step 3* - Replace "[Your_MongoDB_Database_URI]" with your MongoDB Database Uri.
  
- *Step 4* - Then you are all set to go type node index.js in your console!
+ *Step 4* - Open your Discord applications and head over to the "OAuth2" page and add a redirect Url.
+            Example 
+            [Image](https://discordjs.guide/assets/add-redirects.d748f69c.png)
  
- *Step 5* - Go to the your / directory it will redirect you to the discord authorisation page. Authorise the application and see the magic!
+ *Step 5* - Then you are all set to go type `node index.js` in your console!
+ 
+ *Step 6* - Go to the your / directory it will redirect you to the discord authorisation page. Authorise the application and see the magic!
  
  if you encounter any error feel free to create a issue here!
