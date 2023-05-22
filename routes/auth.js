@@ -15,8 +15,10 @@ router.get('/discord/callback', passport.authenticate('discord', { failureRedire
 });
 
 router.get('/discord/logout', (req, res) => {
-  req.logout();
-  res.redirect('/');
+    req.session.destroy();
+
+    res.redirect('/')
+
 });
 
 
